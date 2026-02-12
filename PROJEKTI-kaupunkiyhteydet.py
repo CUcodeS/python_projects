@@ -286,7 +286,7 @@ def find_route(data, departure, destination):
     an empty list [].
 
     :param data: dict{str:{str:int}}, A data structure of an unspecified type
-           (you decide) which contains the distance information between the
+           which contains the distance information between the
            cities.
     :param departure: str, the name of the departure city.
     :param destination: str, the name of the destination city.
@@ -339,15 +339,12 @@ def find_route(data, departure, destination):
 def read_distance_file(file_name):
     """
     Reads the distance information from <file_name> and stores it
-    in a suitable data structure (you decide what kind of data
-    structure to use). This data structure is also the return value,
+    in a data structure. This data structure is also the return value,
     unless an error happens during the file reading operation.
 
     :param file_name: str, The name of the file to be read.
     :return: dict | None: A data structure containing the information
              read from the <file_name> or None if any kind of error happens.
-             The data structure to be chosen is completely up to you as long
-             as all the required operations can be implemented using it.
     """
 
     try:
