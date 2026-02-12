@@ -63,8 +63,7 @@ class Player:
 
 def main():
     # Here we define two variables which are the objects initiated from the
-    # class Player. This is how the constructor of the class Player
-    # (the method that is named __init__) is called!
+    # class Player.
 
     player1 = Player("Matti")
     player2 = Player("Teppo")
