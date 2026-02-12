@@ -166,9 +166,7 @@ def drive_sideways(current_x, current_y, target_x, target_y, gas_in_tank,
 
 def read_number(prompt, error_message="Incorrect input!"):
     """
-    DO NOT TOUCH THIS FUNCTION.
     This function reads input from the user.
-    Also, don't worry if you don't understand it.
     """
 
     try:
